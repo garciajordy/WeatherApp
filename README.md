@@ -1,15 +1,68 @@
-# 🚀 Welcome to your new awesome project!
+# WeatherApp
 
-This project has been created using **webpack-cli**, you can now run
+In this project, I built a basic weather appliction using JavaScript, Webpack and API. You can write the name of the city and click on search, to get all the information of the city.
+
+## Built With
+
+- JavaScript
+- Webpack
+- API
+- Html
+- Bootstrap
+
+### System requirements
+
+- Web Browser
+
+## Install WebPack
 
 ```
-npm run build
+$ npm install --save-dev webpack
 ```
 
-or
+## Getting Started
+
+To get a local copy of the repository please run the following commands on your terminal:
 
 ```
-yarn build
+$ cd <folder>
 ```
 
-to bundle your application
+```
+$ git clone https://github.com/garciajordy/WeatherApp.git
+```
+
+```
+$ cd WeatherApp
+```
+
+## Instructions
+
+> To use the app simply enter the name of your city and click on search.
+
+## Author
+
+👤 **Jordy Garcia**
+
+- Github:[@garciajordy](https://github.com/garciajordy)
+- Email:[jordygarcia0119@gmail.com](https://mail.google.com/mail/?view=cm&source=mailto&to=jordygarcia0119@gmail.com)
+- LinkedIn:[Jordy Garcia](https://www.linkedin.com/in/jordy-garcia-675849206/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/garciajordy/WeatherApp/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- [Odin Projects](https://www.theodinproject.com/courses/)
+- [Microverse](https://microverse.com)
+
+## 📝 License
+
+This project is [MIT](https://mit-license.org/) licensed.
