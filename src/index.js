@@ -1,7 +1,7 @@
 import "../style/style.scss"
 
 const getData = function(city) {
-    let data = fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},uk&APPID=9ce157141208c7f7d8b28e7e79719ed2&units=metric`).then(function (res) {
+    let data = fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=9ce157141208c7f7d8b28e7e79719ed2&units=metric`).then(function (res) {
         return res.json()
     })
     return data
