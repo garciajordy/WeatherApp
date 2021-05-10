@@ -36,6 +36,10 @@ $ git clone https://github.com/garciajordy/WeatherApp.git
 $ cd WeatherApp
 ```
 
+```
+$ npm install
+```
+
 ## Instructions
 
 > Visit https://openweathermap.org/
