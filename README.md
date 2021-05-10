@@ -38,6 +38,14 @@ $ cd WeatherApp
 
 ## Instructions
 
+> Visit https://openweathermap.org/
+
+> Create a free account!
+
+> Copy the API-key which you can find in your email or account.
+
+> Change the API in src/index.js on line 1.
+
 > To use the app simply enter the name of your city and click on search.
 
 ## Author
