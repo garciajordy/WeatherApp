@@ -10,12 +10,12 @@
 </head>
 <body class="d-flex justify-content-center pt-2">
     <div class="card" style="width: 18rem;">
+      <p id="error" class="text-center text-danger font-weight-bold"></p>
         <div class="d-flex">
-
             <input class="form-control" type="text" name="city" id="city">
             <button id="btn" class="btn btn-primary">Search</button>
         </div>
-        <img class="card-img-top" src="https://scx2.b-cdn.net/gfx/news/hires/2019/weatherforec.jpg" alt="Card image cap">
+        <img height="250" id="image" class="card-img-top" src="https://scx2.b-cdn.net/gfx/news/hires/2019/weatherforec.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 id="city-1" class="card-title">City</h5>
           <p id="weather-cast" class="card-text">Weather</p>
@@ -25,6 +25,11 @@
           <li id="min-temp" class="list-group-item">min-temp</li>
           <li id="max-temp" class="list-group-item">max-temp</li>
         </ul>
+        <div class="d-flex">
+
+          <button id="cel" class="btn btn-secondary">Celsius</button>
+          <button id="fah" class="btn btn-secondary">Fahrenheit</button>
+        </div>
 
       </div>
     <script src="main.js"></script>
